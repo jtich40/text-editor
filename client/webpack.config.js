@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       // Webpack plugin that simplifies creation of HTML files to serve webpack bundles.
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         title: 'JATE'
       }),
       // Inject custom workbox service worker 
