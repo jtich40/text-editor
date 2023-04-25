@@ -1,4 +1,4 @@
-# Flame Chat
+# JATE (Just Another Text Editor)
   ![License](https://img.shields.io/badge/license-MIT-red.svg)
 
 ## Description
