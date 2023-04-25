@@ -41,8 +41,7 @@ The following image shows the application's IndexedDB storage.
 
 ![image](https://user-images.githubusercontent.com/116316302/234418847-da16e1d7-9e75-444b-9f98-9104ed1e88cf.png)
 
-The following image shows the web application downloaded as an app on your desktop that can be used offline.
-
+The following image shows the web application downloaded as an app on your desktop by clicking the Install button.
 ![image](https://user-images.githubusercontent.com/116316302/234419202-cc3ddbc9-d846-4ade-9514-6add433a1483.png)
 
 ## License
