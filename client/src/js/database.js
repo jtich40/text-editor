@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-export const putDb = async (id, content) => {
+export const putDb = async (content) => {
   console.log('PUT to the db')
   // create connection to db
   const jateDb = await openDB('jate', 1);
@@ -21,7 +21,7 @@ export const putDb = async (id, content) => {
   // create object store
   const store = tx.objectStore('jate');
   // use put method to update content in db
-  const request = store.put({ id, content });
+  const request = store.put({ id: 1, value: content });
   // wait for transaction to complete
   const result = await request;
   console.log('Data saved to db', result);
@@ -40,7 +40,7 @@ export const getDb = async () => {
   // wait for transaction to complete
   const result = await request;
   console.log('Data retrieved from db', result);
-  return result;
+  return result.value;
 }
 
 initdb();
