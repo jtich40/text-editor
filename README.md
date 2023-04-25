@@ -8,6 +8,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
+* [Credits](#credits)
 * [Questions](#questions)
 
 ## Installation
@@ -20,7 +21,7 @@ The application can be accessed by the deployed link (see Usage section below). 
 
 3. Enter the command `npm run start` to start up the backend server and serve the client.
 
-4. Visit the url (http://localhost:3000) to view the application.
+4. Visit the url http://localhost:3000 to view the application.
 
 ## Usage
 
