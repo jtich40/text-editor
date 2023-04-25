@@ -50,7 +50,7 @@ The following image shows the web application downloaded as an app on your deskt
   
 ## Credits
   
-Starter code provided by [Xandromus](https://github.com/coding-boot-camp/cautious-meme)
+Starter code was provided by [Xandromus](https://github.com/coding-boot-camp/cautious-meme).
 
 ## Questions
 
